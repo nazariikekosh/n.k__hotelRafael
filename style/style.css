@@ -752,6 +752,19 @@ footer {
    color: #fff;
    position: relative;
 }
+.footer__copy {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 20px;
+}
+.footer__copy a{
+   transition: 0.4s;
+}
+
+.footer__copy :hover{
+   text-shadow: #fff 1px 0 10px;
+}
 
 .container__footer {
    display: flex;
